@@ -90,7 +90,7 @@ function draw(){
 
   if(frameCount%60 === 0){
     cloud = new Cloud();
-    cloudsGroup.add(cloud);
+    cloudsGroup.add(cloud.cloud);
   }
 
   if(frameCount%120 === 0){
